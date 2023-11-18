@@ -1,4 +1,3 @@
-// FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`)
@@ -6,6 +5,8 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== + ${expected}`)
   }
 };
-const head = function(arr) {
-  return arr[0]
+
+const tail = function(arr2) {
+  let new_arr = arr2.slice(1)
+  return new_arr;
 }
