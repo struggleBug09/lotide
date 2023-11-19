@@ -14,6 +14,6 @@ const assertArraysEqual = function(assertArray1, assertArray2) {
   if (eqArrays) {
     console.log(`✅✅✅ Assertion Passed: ${assertArray1} === ${assertArray2}`);
   } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${assertArray1} !== + ${assertArray2}`);
+    console.log(`🛑🛑🛑 Assertion Failed: ${assertArray1} !== ${assertArray2}`);
   }
 };
