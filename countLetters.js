@@ -5,6 +5,7 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
+assertEqual(1, 1);
 
 const countLetters = function(stringInputs) {
   let result = {};
@@ -16,4 +17,6 @@ const countLetters = function(stringInputs) {
     }
   }
   return result;
-}
+};
+
+countLetters("lighthouse in the house");
