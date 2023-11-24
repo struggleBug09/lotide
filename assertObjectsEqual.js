@@ -14,7 +14,7 @@ const eqObjects = function(object1, object2) {
       let keyIsInObj2 = obj1 in object2 //checks if key is in obj2
       let inObj = object1[obj1]         
       let valueIsInArr2 = arr2.includes(inObj) //checks if value is on object 2
-      if (!(keyIsInObj2 && valueIsInArr2)) { //checks if value is not equal
+      if (!(keyIsInObj2 && valueIsInArr2)) { //triggers at least one of the keys or values on object1 is not found on object2
         if (Array.isArray(inObj)) {   // this code uses the eqArray code to
           for (let i = 0; i < inObj.length; i++) {
               if (inObj.length !== arr2.length) {
