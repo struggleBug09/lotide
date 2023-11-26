@@ -10,15 +10,16 @@ const takeUntil = function(array, callback) {
 }
 
 const eqArrays = function(arr1, arr2) {
+  if (arr1.length !== arr2.length) {
+    return false;
+  }
   for (let i = 0; i < arr1.length; i++) {
     if (arr1[i] !== arr2[i]) {
-      return false;
-    } else if (arr1.length !== arr2.length) {
       return false;
     }
   }
   return true;
-}
+};
 const arr = [-3, -2, -1, 0, 1, 2, 3]
 const onlyNegative = takeUntil(arr, number => number < 0)  //return array with only negative
 
