@@ -17,7 +17,7 @@ const eqArrays = function(arr1, arr2) {
   }
   return true;
 };
-
+//sample change
 const assertArraysEqual = function(assertArray1, assertArray2) {
   const arraysAreEqual = eqArrays(assertArray1, assertArray2);
   if (arraysAreEqual) {
