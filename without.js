@@ -17,7 +17,7 @@ const eqArrays = function(arr1, arr2) {
   }
   return true;
 };
-//sample change
+
 const assertArraysEqual = function(assertArray1, assertArray2) {
   const arraysAreEqual = eqArrays(assertArray1, assertArray2);
   if (arraysAreEqual) {
@@ -41,11 +41,8 @@ const without = function(source,itemsToRemove) {
   return withoutArr;
 };
 
-const words = ["hello", "world", "lighthouse"];
-without(words, ["lighthouse"]); // no need to capture return value for this test case
-// Make sure the original array was not altered by the without function
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
 
+module.exports = without;
 
 
 
