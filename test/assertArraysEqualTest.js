@@ -3,7 +3,7 @@ const assertArraysEqual = require('../assertArraysEqual');
 
 
 describe("#assertArraysEqual", () => {
-  it(`it returns ✅✅✅ Assertion Passed: === `, () => {
+  it(`it returns ✅✅✅ Assertion Passed: === ${assertArray1}`, () => {
     assertArraysEqual([1, 2, 3], [1, 2, 3]);
   });
   it(`it returns returns 🛑🛑🛑 Assertion Failed:  !== `, () => {
