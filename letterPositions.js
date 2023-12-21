@@ -31,3 +31,4 @@ const letterPositions = function(sentence) {
   return result;
 };
 
+module.exports = letterPositions;
