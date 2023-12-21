@@ -4,7 +4,7 @@ const countOnly = require('./countOnly');
 const countLetters = require('./countLetters');
 const letterPositions = require('./letterPositions');
 const findKeyByValue = require('./findKeyByValue');
-const eqObjects = require('./eqObjects')
+const eqObjects = require('./eqObjects');
 
 
 
