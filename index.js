@@ -1,6 +1,7 @@
 const without = require('./without');
 const flatten = require('./flatten');
 const countOnly = require('./countOnly');
+const countLetters = require('./countLetters');
 
 
 
@@ -17,6 +18,7 @@ module.exports = {
   without,
   flatten,
   countOnly,
+  countLetters,
   head,
   tail,
   middle
